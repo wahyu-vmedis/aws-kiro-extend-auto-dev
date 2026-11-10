@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "TSX Comment Quality Check",
+  "description": "When a TSX file is saved, inspects the file for comments. If the level of commenting is not aligned to best practices, adds comments directly in the file.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.tsx"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A TSX file was just saved. Please review it for comment quality and coverage. Check if:\n1. Components have JSDoc comments explaining their purpose and props\n2. Complex logic or non-obvious code has inline explanations\n3. Functions and hooks have comments describing what they do and their return values\n4. Any side effects or important state changes are explained\n\nBest practices for TSX commenting:\n- Every exported component should have a JSDoc block comment describing its purpose\n- Props interfaces/types should have comments for each non-obvious prop\n- Complex conditional rendering logic should have a brief comment\n- Custom hooks should be documented with JSDoc\n- Magic numbers or non-obvious values should have explanatory comments\n- TODO/FIXME comments should be specific\n\nIf the file lacks adequate comments or falls short of these best practices, add the appropriate comments directly to the file without changing any existing logic or code. Only add comments where they are genuinely missing or would add value — do not over-comment obvious code."
+  }
+}
