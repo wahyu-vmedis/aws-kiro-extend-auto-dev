@@ -1,0 +1,1409 @@
+{
+  "/AppStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    },
+    {
+      "type": "aws:cdk:templateFile",
+      "data": "AppStack.template.json"
+    }
+  ],
+  "/AppStack/IdentityPool": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "IdentityPool"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:82:29)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/IdentityPoolRoleAttachment": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "IdentityPoolRoleAttachment"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:98:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/ViteApiUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ViteApiUrl"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:372:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/ViteUserPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ViteUserPoolId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:376:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/ViteUserPoolClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ViteUserPoolClientId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:380:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/ViteIdentityPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ViteIdentityPoolId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:384:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/WebsiteBucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteBucketName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:388:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/CloudFrontDistributionId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CloudFrontDistributionId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:392:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/CloudFrontDomainName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CloudFrontDomainName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:396:9)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppStack/UserPool/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserPool6BA7E5F2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new UserPool2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:55:25)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/UsersTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UsersTable9725E9C8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:105:27)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/PostsTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PostsTableC82B36F0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:117:27)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/LikesTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "LikesTable9511B0A4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:130:27)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/CommentsTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CommentsTableBBDBF0A8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:143:30)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/FollowsTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FollowsTable7B81FE10"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:156:29)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApi546F5920"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:170:20)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Endpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiEndpoint2C3F2ADE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:170:20)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/RegisterFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RegisterFunction735506DF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:192:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/LoginFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "LoginFunction66F090C6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:204:31)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/GetProfileFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetProfileFunction8A105C24"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:216:36)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/UpdateProfileFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateProfileFunction2A160882"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:226:39)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/FollowUserFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FollowUserFunctionD86228D7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:236:36)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/UnfollowUserFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UnfollowUserFunction2E9DAACA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:247:38)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/CheckFollowingFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckFollowingFunctionF22CC9B0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:258:40)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/CreatePostFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreatePostFunction56510812"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:269:36)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/GetPostsFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetPostsFunctionC3346FC5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:280:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/LikePostFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "LikePostFunctionEAEFAE85"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:291:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/WebsiteBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteBucket75C24D94"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:331:30)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/OriginAccessIdentity/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "OriginAccessIdentityDF1E3CAC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new OriginAccessIdentity2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:336:38)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/Distribution/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Distribution830FAC52"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Distribution2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:342:29)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppStack/UserPool/UserPoolClient/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserPoolUserPoolClient40176907"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addClient in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:73:45)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Deployment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiDeployment27CB88BDba0de10b049861b2b14ddf55ea36d8f7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:170:20)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/DeploymentStage.prod/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiDeploymentStageprod11C6ED1B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:170:20)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/WebsiteBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteBucketPolicyE10E3262"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiOPTIONSF16EB433"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:170:20)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauth7DA4919B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:306:36)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusers3CE2D77C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:311:37)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiposts418AB04A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:322:37)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthOPTIONSED4EE510"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:306:36)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/register/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthregister00A388B6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:307:31)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/login/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthlogin03AE2AD5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:309:28)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersOPTIONSA7C3BCC8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:311:37)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdB9F056B8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:312:30)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsOPTIONSB5C7B1C6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:322:37)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/GET/ApiPermission.AppStackMicroBloggingApiFF188F7C.GET..posts": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsGETApiPermissionAppStackMicroBloggingApiFF188F7CGETpostsD74A7E6B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:323:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/GET/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.GET..posts": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsGETApiPermissionTestAppStackMicroBloggingApiFF188F7CGETpostsCCA51859"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:323:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsGET699A8DF9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:323:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/POST/ApiPermission.AppStackMicroBloggingApiFF188F7C.POST..posts": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsPOSTApiPermissionAppStackMicroBloggingApiFF188F7CPOSTposts00A41A19"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:324:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/POST/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.POST..posts": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsPOSTApiPermissionTestAppStackMicroBloggingApiFF188F7CPOSTpostsBDA328FB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:324:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostsPOST84CA9959"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:324:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdD02F4D19"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:327:30)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/register/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthregisterOPTIONS48A92167"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:307:31)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/register/POST/ApiPermission.AppStackMicroBloggingApiFF188F7C.POST..auth.register": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthregisterPOSTApiPermissionAppStackMicroBloggingApiFF188F7CPOSTauthregister63C46AD3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:308:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/register/POST/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.POST..auth.register": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthregisterPOSTApiPermissionTestAppStackMicroBloggingApiFF188F7CPOSTauthregisterCA89171D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:308:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/register/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthregisterPOSTE2D65165"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:308:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/login/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthloginOPTIONS763D3E04"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:309:28)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/login/POST/ApiPermission.AppStackMicroBloggingApiFF188F7C.POST..auth.login": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthloginPOSTApiPermissionAppStackMicroBloggingApiFF188F7CPOSTauthlogin7EB09FFF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:310:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/login/POST/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.POST..auth.login": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthloginPOSTApiPermissionTestAppStackMicroBloggingApiFF188F7CPOSTauthloginDD0CFA31"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:310:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/auth/login/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiauthloginPOSTCDA48F2E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:310:15)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdOPTIONS1448F2EA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:312:30)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/GET/ApiPermission.AppStackMicroBloggingApiFF188F7C.GET..users.{userId}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdGETApiPermissionAppStackMicroBloggingApiFF188F7CGETusersuserId00506138"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:313:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/GET/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.GET..users.{userId}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdGETApiPermissionTestAppStackMicroBloggingApiFF188F7CGETusersuserIdB2FF6BFC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:313:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdGET9363FA02"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:313:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/PUT/ApiPermission.AppStackMicroBloggingApiFF188F7C.PUT..users.{userId}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdPUTApiPermissionAppStackMicroBloggingApiFF188F7CPUTusersuserIdAE1A950F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:314:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/PUT/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.PUT..users.{userId}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdPUTApiPermissionTestAppStackMicroBloggingApiFF188F7CPUTusersuserIdF7A2B83F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:314:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/PUT/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdPUT79E0E987"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:314:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/follow/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowD3795219"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:316:31)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/unfollow/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdunfollow239278BF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:318:33)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/following/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowing66D5A05C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:320:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/posts/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdpostsCDDBF408"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:325:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdOPTIONS770E35A5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:327:30)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/like/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdlike0F38E546"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:328:33)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/follow/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowOPTIONS1B379C3F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:316:31)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/follow/POST/ApiPermission.AppStackMicroBloggingApiFF188F7C.POST..users.{userId}.follow": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowPOSTApiPermissionAppStackMicroBloggingApiFF188F7CPOSTusersuserIdfollow4B00D2E7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:317:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/follow/POST/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.POST..users.{userId}.follow": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowPOSTApiPermissionTestAppStackMicroBloggingApiFF188F7CPOSTusersuserIdfollowCFA7F8B1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:317:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/follow/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowPOST486D9291"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:317:16)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/unfollow/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdunfollowOPTIONS94D3CC51"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:318:33)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/unfollow/POST/ApiPermission.AppStackMicroBloggingApiFF188F7C.POST..users.{userId}.unfollow": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdunfollowPOSTApiPermissionAppStackMicroBloggingApiFF188F7CPOSTusersuserIdunfollow4AC8C99E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:319:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/unfollow/POST/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.POST..users.{userId}.unfollow": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdunfollowPOSTApiPermissionTestAppStackMicroBloggingApiFF188F7CPOSTusersuserIdunfollow3DA99CED"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:319:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/unfollow/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdunfollowPOST69DF75D5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:319:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/following/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowingOPTIONS66639B38"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:320:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/following/GET/ApiPermission.AppStackMicroBloggingApiFF188F7C.GET..users.{userId}.following": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowingGETApiPermissionAppStackMicroBloggingApiFF188F7CGETusersuserIdfollowing3417991E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:321:19)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/following/GET/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.GET..users.{userId}.following": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowingGETApiPermissionTestAppStackMicroBloggingApiFF188F7CGETusersuserIdfollowing0E333FE0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:321:19)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/following/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdfollowingGET8C462158"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:321:19)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/posts/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdpostsOPTIONS7C49AE29"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:325:34)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/posts/GET/ApiPermission.AppStackMicroBloggingApiFF188F7C.GET..users.{userId}.posts": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdpostsGETApiPermissionAppStackMicroBloggingApiFF188F7CGETusersuserIdposts6B167E69"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:326:19)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/posts/GET/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.GET..users.{userId}.posts": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdpostsGETApiPermissionTestAppStackMicroBloggingApiFF188F7CGETusersuserIdposts095F5B64"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:326:19)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/users/{userId}/posts/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApiusersuserIdpostsGET3A540F13"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:326:19)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/like/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdlikeOPTIONS3DE3BEBD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addResource in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:328:33)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)"
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/like/POST/ApiPermission.AppStackMicroBloggingApiFF188F7C.POST..posts.{postId}.like": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdlikePOSTApiPermissionAppStackMicroBloggingApiFF188F7CPOSTpostspostIdlike95CEABD6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:329:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/like/POST/ApiPermission.Test.AppStackMicroBloggingApiFF188F7C.POST..posts.{postId}.like": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdlikePOSTApiPermissionTestAppStackMicroBloggingApiFF188F7CPOSTpostspostIdlike4AF45867"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:329:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/AppStack/MicroBloggingApi/Default/posts/{postId}/like/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MicroBloggingApipostspostIdlikePOST3BD0C04C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...PropertyInjectable.addMethod in aws-cdk-lib...",
+        "new AppStack (C:\\Users\\student\\environment\\infrastructure\\dist\\lib\\app-stack.js:329:18)",
+        "<anonymous> (C:\\Users\\student\\environment\\infrastructure\\dist\\bin\\app.js:41:1)",
+        "...node internals..."
+      ]
+    }
+  ]
+}
